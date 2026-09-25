@@ -158,7 +158,8 @@ body {
     border-radius: 50%;
     background: var(--tint);
     content: "";
-    opacity: .7
+    opacity: .7;
+    z-index: -1;
 }
 
 .category-card:hover,
